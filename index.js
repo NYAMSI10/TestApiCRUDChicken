@@ -6,7 +6,7 @@ const  chickenrouter = require("./Routes/Chicken")
 app.use(express.urlencoded({extended:false}))
 app.use(express.json())
 
-app.use("/api/chicken", chickenrouter)
+app.use("/chicken", chickenrouter)
 
 const PORT =process.env.PORT || 4000
 
