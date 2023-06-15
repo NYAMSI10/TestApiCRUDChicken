@@ -8,7 +8,7 @@ app.use(express.json())
 
 app.use("/chicken", chickenrouter)
 
-const PORT =process.env.PORT || 4000
+const PORT =process.env.PORT || 3000
 
 // Démarrage du serveur
 app.listen(PORT, ()=>{
